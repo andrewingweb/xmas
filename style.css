@@ -118,29 +118,26 @@ body {
   transition: 0.5s ease;
 }
 
-
 div.polaroid {
-    width: 50%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 35px;
-    padding: 10px;
-  }
-  
-  div.container {
-    text-align: center;
-    padding: 10px 20px;
-    font-family: "Dancing Script", cursive;
-    font-size: 2rem;
-  }
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 35px;
+  padding: 10px;
+}
 
-  div.photos{
-    display: flex;
-    
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+div.photos {
+  display: flex;
+
   height: 500px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  }
-  
+}
