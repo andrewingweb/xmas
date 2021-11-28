@@ -21,7 +21,8 @@
   .popup {
     margin: 20px auto;
     padding: 15px;
-    background: #fff;
+    box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+	background: #fffef0;
     overflow-y:scroll;
     border-radius: 5px;
     width: 80%;
