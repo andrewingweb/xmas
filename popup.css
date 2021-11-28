@@ -1,6 +1,6 @@
 /*star box and overly*/
 .overlay {
-    position: relative;
+    position: fixed;
     height: 49em;
     width: 50em;
     display: flex;
