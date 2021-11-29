@@ -8,19 +8,27 @@
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link rel="stylesheet" href="popup.css">
-<link rel="stylesheet" href="popup2.css">
 </head>
 <body>
     <div class="ALL">
         <div class="topbar">
             <h1 class="toptitle">Merry Christmas</h1>
+            <div class="date">
+                <p><span id="date"></span></p><script>n =  new Date();
+                    y = n.getFullYear();
+                    m = n.getMonth() + 1;
+                    d = n.getDate();
+                    document.getElementById("date").innerHTML = d;</script>    
+            </div>
+
         </div>
         <div class="main">
             <div class="content">
                 <img class="santa" src="santa.png" alt="sleigh">
+                
                 <div id="popup1"  class="overlay">
                     <div class="popup">
                         <h2>Christmas Long Ago</h2>
@@ -118,9 +126,21 @@
             </div>
         </div>
     </div> 
-    <div>
-        <audio autoplay="true" src="cavalry.mp3"> 
-    </div>
+    
+        <!-- BACKGROUND MUSIC -->
+<audio autoplay>
+    <source src="cavalry.mp3">
+    <audio>  
+        <source src="baby.mp3">
+    </audio> 
+    <audio>
+       <source src="last christmas.mp3">
+    </audio>
+    <audio>
+    <source src="fairytale.mp3">
+</audio>
+
+    
         
 </body>
 </html>
