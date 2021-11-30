@@ -10,18 +10,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="popup.css">
+<link rel="stylesheet" href="popup1.css">
 </head>
 <body>
     <div class="ALL">
         <div class="topbar">
             <h1 class="toptitle">Merry Christmas</h1>
-            <div class="date">
-                <p><span id="date"></span></p><script>n =  new Date();
+            
+                <div class="date">
+                <a href="#popup6"><p><span id="date"></span></p><script>n =  new Date();
                     y = n.getFullYear();
                     m = n.getMonth() + 1;
                     d = n.getDate();
-                    document.getElementById("date").innerHTML = d;</script>    
+                    document.getElementById("date").innerHTML = d;</script></a>    
             </div>
+        
 
         </div>
         <div class="main">
@@ -198,10 +201,10 @@
                                 
                                 <img class="image" src="I2.jpeg" alt="Waistcoats for mice">
                                 
-                                <p class="content2">On a bitter cold day near Christmastime the tailor began to make a coat--a
+                                <p class="content2">On a bitter cold day near Christmastime the tailor began to make a coat, a
                                 coat of cherry-coloured corded silk embroidered with pansies and roses,
                                 and a cream coloured satin waistcoat trimmed with gauze and green
-                                worsted chenille--for the Mayor of Gloucester.<br><br></p>
+                                worsted chenille, for the Mayor of Gloucester.<br><br></p>
                                 
                                 <img class="image" src="I3.jpeg" alt="A well dressed Miss">
                                 
@@ -597,7 +600,17 @@
                         </div>
                     </div>
                 </div>
-                
+
+                <div id="popup6"  class="overlay1">
+                    <div class="popup1">
+                        
+                        <a class="close" href="#">&times;</a>
+                        <div class="advent">
+                            <img src="star1.png" alt="" style="width: 200px;">
+                        </div>
+                    </div>
+                </div>
+
                 <div id="popup5"  class="overlay">
                     <div class="popup">
                         <h2>How the Grinch Stole Christmas</h2>

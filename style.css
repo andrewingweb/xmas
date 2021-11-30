@@ -234,3 +234,11 @@ img {
     position: left;
     align-items: left;
 }
+
+.date a{
+    text-decoration: none;
+    color: inherit;
+}
+.advent{
+    margin: 9%;
+}
