@@ -1,80 +1,81 @@
 .overlay1 {
-    position: fixed;
-    height: 40vh;
-    width: 20vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -50px;
-    margin-left: 45%;
-    margin-right: 50%;
-    background: rgba(0, 0, 0, 0.7);
-    transition: all 1s ease-in;
-    visibility: hidden;
-    opacity: 0;
-    border-radius: 20px;
-  }
-  .overlay1:target {
-    visibility: visible;
-    opacity: 1;
-  }
+  position: absolute;
+  left: 35vw;
+  bottom: 35vh;
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-  .popup1 {
-    margin: 20px auto;
-    padding: 10px;
-    box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
-	background: #fffef0;
-    overflow-y:scroll;
-    border-radius: 5px;
-    width: 75%;
-    height: 75%;
-    position: relative;
-    transition: all 1s ease-in;
-  }
-  
-  .popup1 h2 {
-    margin-top: 0;
-    color: #333;
-    font-size: 2.5rem;
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    padding-top: 20px;
-    transition: 1s ease-in-out;
-  }
-  .popup1 h2:hover{
-      color: gold;
-      
-  }
-  .popup1 .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-  }
-  .popup1 .close:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 1s ease-in;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 20px;
+}
+.overlay1:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup1 {
+  z-index: 3;
+  padding: 15px;
+  box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+background: #fffef0;
+  overflow-y:scroll;
+  border-radius: 5px;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+
+  transition: all 1s ease-in;
+}
+
+.popup1 h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 3.5vw;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  padding-top: 20px;
+  transition: 1s ease-in-out;
+}
+.popup1 h2:hover{
     color: gold;
+    
+}
+.popup1 .close {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  transition: all 200ms;
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup1 .close:hover {
+  color: gold;
+}
+.popup1 .content1 {
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: "Dancing Script", cursive;
+  max-height: 90%;
+  transition: 1s ease-in-out;
+}
+.popup1 .content1:hover{
+    color: gold;
+    
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 90%;
   }
-  .popup1 .content1 {
-    text-align: center;
-    font-size: 25px;
-    font-family: "Dancing Script", cursive;
-    max-height: 90%;
-    transition: 1s ease-in-out;
+  .popup {
+    width: 90%;
   }
-  .popup1 .content1:hover{
-      color: gold;
-      
-  }
-  
-  @media screen and (max-width: 700px) {
-    .box {
-      width: 20%;
-    }
-    .popup {
-      width: 20%;
-    }
-  }
+}

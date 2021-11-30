@@ -152,7 +152,7 @@ div.photos {
     position: absolute;
     right:5vw;
    top: 9vh;
-    font-size: 10vh;
+    font-size: 6vw;
     color: gold;
     animation: glow 1s ease-in-out infinite alternate;
 }
@@ -215,7 +215,7 @@ img {
     }
 .gringe{
     position: absolute;
-    margin-top: 30%;
+    bottom: 5vh;
     left: 0px;
     transform: scaleX(-1);
     opacity: 0;
@@ -232,7 +232,7 @@ img {
     padding-left: 20px;
 }
 .santa{
-    position: left;
+    position: absolute;
     align-items: left;
 }
 
