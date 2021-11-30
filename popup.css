@@ -29,6 +29,7 @@
     height: 90%;
     position: relative;
     transition: all 1s ease-in;
+    z-index: 4;
   }
   
   .popup h2 {

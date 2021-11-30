@@ -20,7 +20,7 @@
 }
 
 .popup1 {
-  z-index: 3;
+  z-index: 1;
   padding: 15px;
   box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
 background: #fffef0;
@@ -28,7 +28,7 @@ background: #fffef0;
   border-radius: 5px;
   width: 80%;
   height: 80%;
-  position: absolute;
+  position: relative;
 
   transition: all 1s ease-in;
 }
