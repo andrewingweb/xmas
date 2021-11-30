@@ -1,7 +1,7 @@
 .overlay1 {
     position: fixed;
-    height: 20em;
-    width: 20em;
+    height: 40vh;
+    width: 20vw;
     display: flex;
     align-items: center;
     justify-content: center;

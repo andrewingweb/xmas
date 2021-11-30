@@ -1,8 +1,8 @@
 /*star box and overly*/
 .overlay {
     position: fixed;
-    height: 49em;
-    width: 50em;
+    height: 99vh;
+    width: 62.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
 	background: #fffef0;
     overflow-y:scroll;
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
     height: 90%;
     position: relative;
     transition: all 1s ease-in;
@@ -34,7 +34,7 @@
   .popup h2 {
     margin-top: 0;
     color: #333;
-    font-size: 2.5rem;
+    font-size: 3.5vw;
     font-family: "Dancing Script", cursive;
     text-align: center;
     padding-top: 20px;
@@ -49,7 +49,7 @@
     top: 20px;
     right: 30px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
     text-decoration: none;
     color: #333;
@@ -59,7 +59,7 @@
   }
   .popup .content1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5vw;
     font-family: "Dancing Script", cursive;
     max-height: 90%;
     transition: 1s ease-in-out;
