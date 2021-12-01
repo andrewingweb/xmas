@@ -243,3 +243,9 @@ img {
 .advent{
     margin: 1%;
 }
+.copy{
+  color: gray;
+  position: absolute;
+  left: 15vw;
+  bottom: -2vh;
+}
