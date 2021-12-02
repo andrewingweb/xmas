@@ -20,7 +20,7 @@
   
   .popup {
     margin: 20px auto;
-    padding: 15px;
+    padding: 2vh ;
     box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
 	background: #fffef0;
     overflow-y:scroll;
@@ -33,7 +33,7 @@
   }
   
   .popup h2 {
-    margin-top: 0;
+    margin-top: 2vh;
     color: #333;
     font-size: 3.5vw;
     font-family: "Dancing Script", cursive;

@@ -129,19 +129,18 @@ div .polaroid {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 3vw;
-  padding: 10px;
+  padding: 15px;
 }
 
 div .container {
   text-align: center;
-  padding: 10px 20px;
+  line-height: 1vh;
   font-family: "Great Vibes", cursive;
   font-size: 4vh;
 }
 
 div .photos {
   display: flex;
-
   height: 60vh;
   flex-wrap: wrap;
   justify-content: center;
@@ -189,7 +188,7 @@ div.popup4{
 
 h2{
     text-align: center;
-  padding-top: 5vw;
+  
   font-family: "Great Vibes", cursive;
   font-size: 2vw;
 }
@@ -248,4 +247,7 @@ img {
   position: absolute;
   left: 15vw;
   bottom: -2vh;
+}
+.line{
+  padding-bottom: 5vh;
 }
