@@ -19,9 +19,8 @@
             <h1 class="toptitle">Christmas is coming!</h1>
             
                 <div class="date">
-                <a href="#popup6"><p><span id="date"></span></p><script>n =  new Date();
-                    y = n.getFullYear();
-                    m = n.getMonth() + 1;
+                <a href="#popup6"><p><span id="date"></span></p><script>
+                n =  new Date();
                     d = n.getDate();
                     document.getElementById("date").innerHTML = d;</script></a>    
             </div>
@@ -692,7 +691,83 @@
                     <div class="popup1">
                         <a class="close" href="#">&times;</a>
                         <div class="advent">
-                            <img src="./Advent/Advent3.png" alt="" style="width: 15vw">
+
+                            <script type="text/javascript">
+                                var imlocation = "./Advent/";
+                                 function ImageArray (n) {
+                                   this.length = n;
+                                   for (var i =1; i <= n; i++) {
+                                     this[i] = ' '
+                                   }
+                                 }
+                                image = new ImageArray(25);
+                                image[1] = 'Advent1.gif';
+                                image[2] = 'Advent2.gif';
+                                image[3] = 'Advent3.png';
+                                image[4] = 'Advent4.gif';
+                                image[5] = 'Advent5.gif';
+                                image[6] = 'Advent6.gif';
+                                image[7] = 'Advent7.gif';
+                                image[8] = 'Advent8.png';
+                                image[9] = 'Advent9.png';
+                                image[10] = 'Advent10.png';
+                                image[11] = 'Advent11.png';
+                                image[12] = 'Advent12.png';
+                                image[13] = 'Advent13.gif';
+                                image[14] = 'Advent14.gif';
+                                image[15] = 'Advent15.png';
+                                image[16] = 'Advent16.png';
+                                image[17] = 'Advent17.gif';
+                                image[18] = 'Advent18.gif';
+                                image[19] = 'Advent19.webp';
+                                image[20] = 'Advent20.gif';
+                                image[21] = 'Advent21.gif';
+                                image[22] = 'Advent22.gif';
+                                image[23] = 'Advent23.gif';
+                                image[24] = 'Advent24.png';
+                                image[25] = 'Advent25.gif';
+                                var currentdate = new Date();
+                                var imagenumber = currentdate.getDate();
+
+                                function WidthArray (n) {
+       this.length = n;
+       for (var j =1; j <= n; j++) {
+         this[j] = ' '
+       }
+     }
+    width = new WidthArray(25);
+    width[1] = 17;
+    width[2] = 17;
+    width[3] = 15;
+    width[4] = 17;
+    width[5] = 17;
+    width[6] = 14;
+    width[7] = 17;
+    width[8] = 10;
+    width[9] = 8;
+    width[10] = 15;
+    width[11] = 16;
+    width[12] = 12;
+    width[13] = 18;
+    width[14] = 18;
+    width[15] = 16;
+    width[16] = 12;
+    width[17] = 15;
+    width[18] = 16;
+    width[19] = 16;
+    width[20] = 13;
+    width[21] = 17;
+    width[22] = 17;
+    width[23] = 18;
+    width[24] = 14;
+    width[25] = 16;
+    var currentdate = new Date();
+    var widthnumber = currentdate.getDate();
+    
+    document.write('<img src="' + imlocation + image[imagenumber] + '"alt="window" style="width: '+ width[widthnumber] + 'vw">');
+                                </script>
+
+
                         </div>
                     </div>
                 </div>
@@ -951,9 +1026,48 @@
     </div> 
     
 <!-- BACKGROUND MUSIC -->
-<!-- HTML Codes by Quackit.com -->
-<audio autoplay controls src="./Music/A3 mariah-carey-all-i-want-for-christmas-is-you-make-my-wish-come-true-edition-(mp3convert.org).mp3" style="width: 15vw; height: 10vh; position: absolute; left: 63vw; bottom: 5vh; opacity: 0.5;"></audio>
-    <footer>
+<script type="text/javascript"><!--
+    var mulocation = "./Music/";
+     function MusicArray (n) {
+       this.length = n;
+       for (var i =1; i <= n; i++) {
+         this[i] = ' '
+       }
+     }
+    music = new MusicArray(25);
+    music[1] = 'A1 cavalry.mp3';
+    music[2] = 'A2 last christmas.mp3';
+    music[3] = 'A3 mariah-carey-all-i-want-for-christmas.mp3';
+    music[4] = 'A4 luther-vandross-every-year.mp3';
+    music[5] = 'A5 baby.mp3';
+    music[6] = 'A6 michael-bubl-winter-wonderland.mp3';
+    music[7] = 'A7 .mp3';
+    music[8] = 'A8 Paul McCartney - Wonderful Christmastime .mp3';
+    music[9] = 'A9 cliff-richard-mistletoe-and-wine.mp3';
+    music[10] = 'A10 Bon Jovi _ Please come home for Christmas.mp3';
+    music[11] = 'A11 faith-hill-where-are-you-christmas.mp3';
+    music[12] = 'A12 happy-xmas-war-is-over.mp3';
+    music[13] = 'A13 mel-smith-kim-wilde-rockin-around-the-christmas-tree.mp3';
+    music[14] = 'A14 Walking in the air.mp3';
+    music[15] = 'A15 nat-king-cole-the-christmas-song.mp3';
+    music[16] = 'A16 .mp3';
+    music[17] = 'A17 jingle-bells.mp3';
+    music[18] = 'A18 when-a-child-is-born-johnny-mathis.mp3';
+    music[19] = 'A19 fairytale.mp3';
+    music[20] = 'A20 santa-baby.mp3';
+    music[21] = 'A21 queen-thank-god-it-s-christmas.mp3';
+    music[22] = 'A22 chris-rea-driving-home-for-christmas.mp3';
+    music[23] = 'A23 Slade.mp3';
+    music[24] = 'A24 .mp3';
+    music[25] = 'A25 we-wish-you-a-merry-christmas.mp3';
+    var currentdate = new Date();
+    var musicnumber = currentdate.getDate();
+    document.write('<audio autoplay controls src="' + mulocation + music[musicnumber] + '" style="width: 15vw; height: 10vh; position: absolute; left: 63vw; bottom: 5vh; opacity: 0.5;"></audio>');
+    //--></script>
+
+
+
+<footer>
         <p class="copy">Copyright © Andrew Ingham 2021</p>
     </footer>
 </body>

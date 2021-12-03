@@ -1,0 +1,38 @@
+
+     function WidthArray (n) {
+       this.length = n;
+       for (var j =1; j <= n; j++) {
+         this[j] = ' '
+       }
+     }
+    width = new WidthArray(25);
+    width[1] = 17;
+    width[2] = 17;
+    width[3] = 15;
+    width[4] = 17;
+    width[5] = 17;
+    width[6] = 14;
+    width[7] = 17;
+    width[8] = 10;
+    width[9] = 8;
+    width[10] = 15;
+    width[11] = 16;
+    width[12] = 12;
+    width[13] = 18;
+    width[14] = 18;
+    width[15] = 16;
+    width[16] = 12;
+    width[17] = 15;
+    width[18] = 16;
+    width[19] = 16;
+    width[20] = 13;
+    width[21] = 17;
+    width[22] = 17;
+    width[23] = 18;
+    width[24] = 14;
+    width[25] = 16;
+    var currentdate = new Date();
+    var widthnumber = currentdate.getDate();
+    
+    document.write('<img src="' + imlocation + image[imagenumber] + '"alt="window" style="width: '+ width[widthnumber] + 'vw">');
+    document.write('<img src="' + imlocation + image[imagenumber] + '"alt="window" style="width: 15vw">');
