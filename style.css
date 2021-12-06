@@ -93,41 +93,41 @@ a{
   color: yellow;
 }
 .tree {
-  width: 4.9vw;
-  opacity: 0.5;
+  width: 6vw;
+  opacity: 1;
 }
 
 .tree:hover {
-  opacity: 1;
+  filter: brightness(150%) saturate(140%);
   transition: 0.5s ease;
 }
 
 .star {
   width: 4.9vw;
-  opacity: 0.5;
+  opacity: 1;
   
 }
 
 .star:hover {
-  opacity: 1;
+  filter: brightness(140%) saturate(140%);
   transition: 0.5s ease;
 }
 .ball {
   width: 4.9vw;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .ball:hover {
-  opacity: 1;
+  filter: brightness(140%) saturate(140%);
   transition: 0.5s ease;
 }
 .box {
   width: 4.9vw;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .box:hover {
-  opacity: 1;
+  filter: brightness(140%) saturate(140%);
   transition: 0.5s ease;
 }
 
