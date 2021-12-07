@@ -1,10 +1,12 @@
-body{
-    animation: transitionIn 3s;
+html{
+    animation: transitionIn 1s ease-in;
+    
 }
 
 @keyframes transitionIn{
     from{
         opacity: 0;
+        
         
     }
     to{
