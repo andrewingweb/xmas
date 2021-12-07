@@ -4,7 +4,7 @@ html {
 
 body {
   background-image: url(winter_scene.jpg);
-  
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
   width: 100vh;
   display: flex;
   backdrop-filter: blur(3px);
-  
+
 }
 
 
@@ -35,6 +35,7 @@ body {
   color: gold;
   letter-spacing: 5px;
 }
+
 .main {
   display: flex;
   margin: 1.8vw;
@@ -74,10 +75,11 @@ body {
   margin-top: 6vh;
   margin-right: 5vw;
   margin-left: auto;
-  
+
 }
-a{
-    list-style: none;
+
+a {
+  list-style: none;
 }
 
 .sidelinks ul li i {
@@ -86,12 +88,13 @@ a{
   font-size: 1.5vw;
   color: white;
   cursor: pointer;
-  
+
 }
 
 .sidelinks ul li i:hover {
   color: yellow;
 }
+
 .tree {
   width: 6vw;
   opacity: 1;
@@ -105,13 +108,14 @@ a{
 .star {
   width: 4.9vw;
   opacity: 1;
-  
+
 }
 
 .star:hover {
   filter: brightness(140%) saturate(140%);
   transition: 0.5s ease;
 }
+
 .ball {
   width: 4.9vw;
   opacity: 1;
@@ -121,6 +125,7 @@ a{
   filter: brightness(140%) saturate(140%);
   transition: 0.5s ease;
 }
+
 .box {
   width: 4.9vw;
   opacity: 1;
@@ -154,110 +159,118 @@ div .photos {
   align-items: center;
 }
 
-.date{
-    position: absolute;
-    right:5vw;
-   top: 9vh;
-    font-size: 6vw;
-    color: gold;
-    animation: glow 1s ease-in-out infinite alternate;
+.date {
+  position: absolute;
+  right: 5vw;
+  top: 9vh;
+  font-size: 6vw;
+  color: gold;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px goldenrod, 0 0 40px goldenrod, 0 0 50px goldenrod, 0 0 60px goldenrod, 0 0 70px goldenrod;
   }
-  
+
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold, 0 0 70px gold, 0 0 80px gold;
   }
 }
-.content2{
-    font-family: "Dancing script", cursive;
-    font-size: 2.5vw;
-    text-align: left;
-    padding-right: 20px;
-    padding-left: 20px;
+
+.content2 {
+  font-family: "Dancing script", cursive;
+  font-size: 2.5vw;
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.content3{
-    font-family: "Dancing script", cursive;
-    font-size: 1.5vw;
-    text-align: right;
-    padding-right: 20px;
-    
-    
+.content3 {
+  font-family: "Dancing script", cursive;
+  font-size: 1.5vw;
+  text-align: right;
+  padding-right: 20px;
+
+
 }
 
-div.popup4{
-    align-items: center;
+div.popup4 {
+  align-items: center;
 }
 
-h2{
-    text-align: center;
-  
+h2 {
+  text-align: center;
+
   font-family: "Great Vibes", cursive;
   font-size: 2vw;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  .end{
-      text-align: center;
-      padding: 10px;
+.end {
+  text-align: center;
+  padding: 10px;
   font-family: "Great Vibes", cursive;
   font-size: 3rem;
-  }
-  .content4{
-    font-family: "Dancing script", cursive;
-    font-size: 1.7rem;
-    text-align: left;
-    padding: 20px;
-    }
-.gringe{
-    position: absolute;
-    bottom: 5vh;
-    left: 0px;
-    transform: scaleX(-1);
-    opacity: 0;
-    transition: 1.5s ease;
-}
-.gringe:hover{
-    opacity: 1;
-}
-.content5{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2.5vw;
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    line-height: 6vh;
-}
-.santa{
-    position: absolute;
-    align-items: left;
 }
 
-.date a{
-    text-decoration: none;
-    color: inherit;
+.content4 {
+  font-family: "Dancing script", cursive;
+  font-size: 1.7rem;
+  text-align: left;
+  padding: 20px;
 }
-.advent{
-    margin: 1%;
-    
+
+.gringe {
+  position: absolute;
+  bottom: 5vh;
+  left: 0px;
+  transform: scaleX(-1);
+  opacity: 0;
+  transition: 1.5s ease;
 }
-.copy{
+
+.gringe:hover {
+  opacity: 1;
+}
+
+.content5 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5vw;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 6vh;
+}
+
+.santa {
+  position: absolute;
+  align-items: left;
+}
+
+.date a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.advent {
+  margin: 1%;
+
+}
+
+.copy {
   color: gray;
   position: absolute;
   left: 15vw;
   bottom: -2vh;
 }
-.line{
+
+.line {
   padding-bottom: 5vh;
 }
-
