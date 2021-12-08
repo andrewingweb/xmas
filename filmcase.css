@@ -318,3 +318,20 @@ body.view-bottom-shelf .roll-camera .move-camera {
 .back1:hover {
   filter: brightness(110%) saturate(140%);
 }
+.fire{
+  position: absolute;
+  top: 2vh;
+  left: 79vw;
+}
+.stocking{
+  position: absolute;
+  top: -2vh;
+  left: 80vw;
+}
+.tree1{
+  position: absolute;
+  bottom: 0vh;
+  left: 0vw;
+
+  
+}
