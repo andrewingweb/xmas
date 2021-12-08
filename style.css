@@ -50,7 +50,8 @@ body {
 }
 
 .content {
-  
+  display: flex;
+  align-content: space-between;
   background-image: url(winter_scene.jpg);
   background-position: center;
   background-size: cover;
@@ -173,7 +174,6 @@ div .photos {
 .date {
   position: relative;
   left: 90%;
-  top: -8%;
   font-size: 6vw;
   color: gold;
   animation: glow 1s ease-in-out infinite alternate;
