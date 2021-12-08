@@ -50,8 +50,7 @@ body {
 }
 
 .content {
-  display: flex;
-  align-content: space-between;
+  
   background-image: url(winter_scene.jpg);
   background-position: center;
   background-size: cover;
