@@ -117,7 +117,7 @@ body.view-bottom-shelf .roll-camera .move-camera {
   transform: rotateY(90deg) rotateX(90deg) translateX(199px);
 }
 .shelf.top {
-  top: 0px;
+  top: -100px;
 }
 .shelf.middle {
   top: 440px;
