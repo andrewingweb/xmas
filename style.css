@@ -24,16 +24,23 @@ body {
   box-shadow: 0 0 10px;
   border-radius: 20px;
   backdrop-filter: blur(3px);
+  
 }
 
 .toptitle {
-  text-align: center;
-  padding: 2vh;
+  position: absolute;
   font-family: "Great Vibes", cursive;
-  font-size: 3em;
+  font-size: 3vw;
   font-weight: bold;
   color: gold;
   letter-spacing: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  width: 100%;
+  text-align: center;
+  
+  
 }
 
 .main {
