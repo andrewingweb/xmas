@@ -68,13 +68,13 @@ body {
   box-shadow: 0 0 10px;
   border-radius: 20px;
   backdrop-filter: blur(3px);
+  
 }
 
 .sidelinks ul li {
   list-style: none;
   margin-top: 6vh;
-  margin-right: 5vw;
-  margin-left: auto;
+  margin-left: -2.5rem;
 
 }
 
@@ -88,7 +88,7 @@ a {
   font-size: 1.5vw;
   color: white;
   cursor: pointer;
-
+  
 }
 
 .sidelinks ul li i:hover {
