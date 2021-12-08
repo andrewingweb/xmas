@@ -45,11 +45,13 @@ body {
 
 .main {
   display: flex;
+  
   margin: 1.8vw;
 }
 
 .content {
-
+  display: flex;
+  align-content: space-between;
   background-image: url(winter_scene.jpg);
   background-position: center;
   background-size: cover;
@@ -60,9 +62,12 @@ body {
   border-radius: 20px;
   padding-left: 3vw;
   margin-left: 5vw;
+  
+  
 }
 
 .santa {
+  position: relative;
   width: 14vw;
   margin-top: 4vh;
 }
@@ -167,9 +172,9 @@ div .photos {
 }
 
 .date {
-  position: absolute;
-  right: 5vw;
-  top: 9vh;
+  position: relative;
+  left: 90%;
+  top: -8%;
   font-size: 6vw;
   color: gold;
   animation: glow 1s ease-in-out infinite alternate;
