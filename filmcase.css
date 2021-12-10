@@ -130,15 +130,15 @@ body.view-bottom-shelf .roll-camera .move-camera {
 }
 
 .shelf.top {
-  top: 200px;
+  top: 260px;
 }
 
 .shelf.middle {
-  top: 440px;
+  top: 510px;
 }
 
 .shelf.bottom {
-  top: 690px;
+  top: 760px;
 }
 
 .shelf .face {
@@ -320,7 +320,7 @@ body.view-bottom-shelf .roll-camera .move-camera {
 }
 .fire{
   position: absolute;
-  top: 2vh;
+  top: 15vh;
   left: 79vw;
 }
 .stocking{
