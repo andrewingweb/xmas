@@ -320,12 +320,12 @@ body.view-bottom-shelf .roll-camera .move-camera {
 }
 .fire{
   position: absolute;
-  top: 2vh;
+  bottom: 0vh;
   left: 79vw;
 }
 .stocking{
   position: absolute;
-  top: -2vh;
+  bottom: 55vh;
   left: 80vw;
 }
 .tree1{
