@@ -173,8 +173,8 @@ div .photos {
 
 .date {
   position: relative;
-  left: 90%;
-  top: -8%;
+  left: 85%;
+  top: -7%;
   font-size: 6vw;
   color: gold;
   animation: glow 1s ease-in-out infinite alternate;
